@@ -8,10 +8,14 @@
 #ifndef SRC_CLASSES_FACE_H_
 #define SRC_CLASSES_FACE_H_
 
+#include <string>
+
 class Face {
+	std::string imgurl;
 public:
-	Face();
+	Face(std::string);
 	virtual ~Face();
+	void getFace();
 };
 
 #endif /* SRC_CLASSES_FACE_H_ */

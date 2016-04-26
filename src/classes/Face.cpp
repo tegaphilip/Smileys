@@ -7,12 +7,18 @@
 
 #include "Face.h"
 
-Face::Face() {
+Face::Face(std::string img) {
 	// TODO Auto-generated constructor stub
+	imgurl = img;
+}
+
+void Face::getFace() {
 
 }
 
 Face::~Face() {
 	// TODO Auto-generated destructor stub
 }
+
+
 
